@@ -1,0 +1,9 @@
+<div style="display: flex; height: 100vh;">
+  <div style="width: 250px; border-right: 1px solid #ccc;">
+    <app-sidebar (problemSelected)="onProblemSelected($event)"></app-sidebar>
+  </div>
+  <div style="flex: 1; padding: 16px;">
+    <app-code-view [problem]="selectedProblem"></app-code-view>
+  </div>
+
+</div>

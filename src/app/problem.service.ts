@@ -1,0 +1,11 @@
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+@Injectable({ providedIn: 'root' })
+export class ProblemService {
+  constructor(private http: HttpClient) {}
+
+  getProblems() {
+    return this.http.get<any[]>('assets/problems.json');
+  }
+}
