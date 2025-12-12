@@ -1,0 +1,31 @@
+:host {
+  display: block;
+  background-color: #1e1e1e;
+  color: #c5c6c7;
+  padding: 16px;
+  overflow-y: auto;
+  height: 100vh;
+  font-size: xx-large;
+}
+
+/* Markdown link color */
+markdown a {
+  color: #61dafb;
+}
+
+/* Divider */
+hr {
+  border-color: #444;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: #2c2c2c;
+}

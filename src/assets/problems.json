@@ -1,27 +1,30 @@
 [
   {
-    "id": 1,
     "title": "comparator",
     "code": "assets/code/comparator.cpp"
   },
   {
-    "id": 2,
     "title": "ostream",
     "code": "assets/code/ostream.cpp"
   },
   {
-    "id": 3,
     "title": "Two Sum",
     "code": "assets/code/two-sum.cpp"
   },
   {
-    "id": 4,
-    "title": "Binary Search",
-    "code": "assets/code/binary-search.cpp"
+    "title": "Upper Bound",
+    "code": "assets/code/upper-bound.cpp"
   },
   {
-    "id": 5,
-    "title": "Binary Search",
-    "code": "assets/code/binary-search.cpp"
+    "title": "Lower Bound",
+    "code": "assets/code/lower-bound.cpp"
+  },
+  {
+    "title": "Pivot",
+    "code": "assets/code/pivot.cpp"
+  },
+  {
+    "title": "Rotated search",
+    "code": "assets/code/rotated-search.cpp"
   }
 ]

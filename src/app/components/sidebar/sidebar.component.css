@@ -1,0 +1,77 @@
+/* Top button bar */
+.nav-bar {
+  display: flex;
+  padding: 12px;
+  background-color: #252526;
+  border-bottom: 1px solid #3c3c3c;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* VSCode-style buttons */
+.vscode-btn {
+  background-color: #2d2d2d;
+  color: #d4d4d4;
+  border: 1px solid #3c3c3c;
+  padding: 6px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s, border 0.2s, box-shadow 0.2s;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.vscode-btn:hover {
+  background-color: #3a3a3a;
+  border-color: #4e4e4e;
+}
+
+.vscode-btn:active {
+  background-color: #444444;
+  border-color: #5a5a5a;
+}
+
+.vscode-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007acc66;
+}
+
+/* Problem list container */
+.problem-list {
+  padding: 12px;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  height: calc(100vh - 62px);
+  overflow-y: auto;
+  font-size: small;
+}
+
+/* OL spacing */
+.problem-list ol {
+  margin: 0;
+  padding-left: 18px;
+}
+
+/* List items */
+.problem-item {
+  padding: 2px 6px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s ease;
+}
+
+.problem-item:hover {
+  background-color: #2c2c2c;
+}
+
+.problem-item.active {
+  background-color: #37373d;
+  color: #4fc3f7;
+}
+
+.problem-item.selected {
+  background: #3a513a;   /* soft dark green highlight */
+  color: #d8f5d8;        /* calm soft light text */
+  border-left: 4px solid #4fc3f7; /* softer blue accent */
+}

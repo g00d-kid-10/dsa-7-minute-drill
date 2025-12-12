@@ -1,14 +1,25 @@
-.container {
+.app-container {
   display: flex;
   height: 100vh;
+  background-color: #1e1e1e; /* VSCode dark background */
+  color: #d4d4d4;
+  overflow: hidden;
 }
 
-app-sidebar {
-  width: 30%;
-  border-right: 1px solid #ddd;
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background-color: #252526; /* VS Code sidebar bg */
+  border-right: 1px solid #3c3c3c;
+  padding: 12px;
+  box-sizing: border-box;
+  overflow-y: auto;
 }
 
-app-code-view {
+/* Main content area */
+.content {
   flex: 1;
-  padding: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
 }

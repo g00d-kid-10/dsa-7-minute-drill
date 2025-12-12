@@ -3,7 +3,8 @@ import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-code-view',
-  templateUrl: './code-view.component.html'
+  templateUrl: './code-view.component.html',
+  styleUrls: ['./code-view.component.css']
 })
 export class CodeViewComponent {
 
@@ -16,10 +17,6 @@ export class CodeViewComponent {
 
   ngOnChanges() {
     if (!this.problem) return;
-
-    // Load markdown
-    this.http.get(this.problem.markdown, { responseType: 'text' })
-      .subscribe(data => this.markdownContent = data);
 
     // Load code file
     this.http.get(this.problem.code, { responseType: 'text' })

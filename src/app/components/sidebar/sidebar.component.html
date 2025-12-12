@@ -1,5 +1,15 @@
-<ol>
-  <li *ngFor="let p of problems" (click)="select(p)">
-    {{ p.title }}
-  </li>
-</ol>
+<div class="nav-bar">
+  <button class="vscode-btn" (click)="prevProblem()">Prev</button>
+  <button class="vscode-btn" (click)="nextProblem()">Next</button>
+</div>
+
+<div class="problem-list">
+  <ol>
+    <li *ngFor="let p of problems; let i = index" 
+        (click)="select(i)"
+        class="problem-item"
+        [class.selected]="selectedIndex === i">
+      {{ p.title }}
+    </li>
+  </ol>
+</div>
