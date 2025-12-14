@@ -1,30 +1,308 @@
 [
   {
-    "title": "comparator",
+    "title": "Comparator",
+    "topics": [],
+    "algorithm": [],
     "code": "assets/code/comparator.cpp"
   },
   {
-    "title": "ostream",
+    "title": "Ostream",
+    "topics": [],
+    "algorithm": [],
     "code": "assets/code/ostream.cpp"
   },
   {
     "title": "Two Sum",
+    "topics": ["Array", "Hash Map"],
+    "algorithm": [],
     "code": "assets/code/two-sum.cpp"
   },
   {
     "title": "Upper Bound",
+    "topics" : ["Binary search"],
+    "algorithm": [],
     "code": "assets/code/upper-bound.cpp"
   },
   {
     "title": "Lower Bound",
+    "topics" : ["Binary search"],
+    "algorithm": [],
     "code": "assets/code/lower-bound.cpp"
   },
   {
     "title": "Pivot",
+    "topics" : ["Binary search"],
+    "algorithm": [],
     "code": "assets/code/pivot.cpp"
   },
   {
     "title": "Rotated search",
+    "topics" : ["Binary search"],
+    "algorithm": [],
     "code": "assets/code/rotated-search.cpp"
+  },
+  {
+    "title": "ListNode",
+    "topics" : ["Linked List"],
+    "algorithm": [],
+    "code": "assets/code/listnode.cpp"
+  },
+  {
+    "title": "List length",
+    "topics" : ["Linked List"],
+    "algorithm": [],
+    "code": "assets/code/list-length.cpp"
+  },
+  {
+    "title": "Copy list",
+    "topics" : ["Linked List"],
+    "algorithm": [],
+    "code": "assets/code/list-copy.cpp"
+  },
+  {
+    "title": "Reverse list(Iterative)",
+    "topics" : ["Linked List"],
+    "algorithm": [],
+    "code": "assets/code/list-reverse-iterative.cpp"
+  },
+  {
+    "title": "Reverse list(Recursive)",
+    "topics" : ["Linked List"],
+    "algorithm": [],
+    "code": "assets/code/list-reverse-recursive.cpp"
+  },
+  {
+    "title": "Remove Nth from end",
+    "topics" : ["Linked List"],
+    "algorithm": [],
+    "code": "assets/code/remove-nth-from-end.cpp"
+  },
+  {
+    "title": "Interval overlap",
+    "topics" : ["Interval"],
+    "algorithm": [],
+    "code": "assets/code/interval-overlap.cpp"
+  },
+  {
+    "title": "Interval overlap or touch",
+    "topics" : ["Interval"],
+    "algorithm": [],
+    "code": "assets/code/interval-overlap-or-touch.cpp"
+  },
+  {
+    "title": "Interval non-overlapping",
+    "topics" : ["Interval"],
+    "algorithm": [],
+    "code": "assets/code/interval-non-overlapping.cpp"
+  },
+  {
+    "title": "Merge Intervals",
+    "topics" : ["Interval"],
+    "algorithm": [],
+    "code": "assets/code/merge-intervals.cpp"
+  },
+  {
+    "title": "TreeNode",
+    "topics" : ["Tree"],
+    "algorithm": [],
+    "code": "assets/code/treenode.cpp"
+  },
+  {
+    "title": "Same Tree",
+    "topics" : ["Tree"],
+    "algorithm": [],
+    "code": "assets/code/is-sametree.cpp"
+  },
+  {
+    "title": "Sub Tree",
+    "topics" : ["Tree"],
+    "algorithm": [],
+    "code": "assets/code/is-sub-tree.cpp"
+  },
+  {
+    "title": "Valid BST",
+    "topics" : ["Tree"],
+    "algorithm": [],
+    "code": "assets/code/is-valid-bst.cpp"
+  },
+  {
+    "title": "Subarray Minimum",
+    "topics": ["Array", "DP"],
+    "algorithm": ["Kadane's"],
+    "code": "assets/code/subarray-minimum.cpp"
+  },
+  {
+    "title": "Subarray Maximum",
+    "topics": ["Array", "DP"],
+    "algorithm": ["Kadane's"],
+    "code": "assets/code/subarray-maximum.cpp"
+  },
+  {
+    "title": "Point inside rectangle",
+    "topics": ["Geometry"],
+    "algorithm": [],
+    "code": "assets/code/point-inside-rectangle.cpp"
+  },
+  {
+    "title": "Reverse Bits",
+    "topics": ["Bitwise"],
+    "algorithm": [],
+    "code": "assets/code/reverse-bits.cpp"
+  },
+  {
+    "title": "Hamming Weight",
+    "topics": ["Bitwise"],
+    "algorithm": [],
+    "code": "assets/code/hamming-weight.cpp"
+  },
+  {
+    "title": "Second Maximum Element",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/second-maximum-element.cpp"
+  },
+  {
+    "title": "Remove Duplicate from sorted",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/remove-duplicate-from-sorted.cpp"
+  },
+  {
+    "title": "Move zeros to end",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/move-zeros-to-end.cpp"
+  },
+  {
+    "title": "Rotate array left by k",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/rotate-array-left-by-k.cpp"
+  },
+  {
+    "title": "Rotate array (Iterative)",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/rotate-array-iterative.cpp"
+  },
+  {
+    "title": "Missing number",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/missing-number.cpp"
+  },
+  {
+    "title": "Maximum consecutive ones",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/maximum-consecutive-ones.cpp"
+  },
+  {
+    "title": "Single Appearence",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/single-appearence.cpp"
+  },
+  {
+    "title": "Sort Array 012",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/sort-array-012.cpp"
+  },
+  {
+    "title": "Majority element",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/majority-element.cpp"
+  },
+  {
+    "title": "Max profit buy sell stock",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/max-profit-buy-sell-stock.cpp"
+  },
+  {
+    "title": "Upper Bound(Reverse)",
+    "topics": ["Binary search"],
+    "algorithm": [],
+    "code": "assets/code/upper-bound-reverse.cpp"
+  },
+  {
+    "title": "Next Permutation",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/next-permutation.cpp"
+  },
+  {
+    "title": "Longest Consecutive",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/longest-consecutive.cpp"
+  },
+  {
+    "title": "Set zeros in matrix",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/set-zeros-in-matrix.cpp"
+  },
+  {
+    "title": "Rotate matrix",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/rotate-matrix.cpp"
+  },
+  {
+    "title": "Merge sorted array",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/merge-sorted-array.cpp"
+  },
+  {
+    "title": "Spiral matrix",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/spiral-matrix.cpp"
+  },
+  {
+    "title": "Prefix Sum",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/prefix-sum.cpp"
+  },
+  {
+    "title": "Subarray sum equals K",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/subarray-sum-equals-k.cpp"
+  },
+  {
+    "title": "Pascal triangle",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/pascal-triangle.cpp"
+  },
+  {
+    "title": "Majority element II",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/majority-element-II.cpp"
+  },
+  {
+    "title": "Threesome",
+    "topics": ["Array"],
+    "algorithm": [],
+    "code": "assets/code/threesome.cpp"
+  },
+  {
+    "title": "Valid parenthesis",
+    "topics": ["Stack"],
+    "algorithm": [],
+    "code": "assets/code/valid-parenthesis.cpp"
+  },
+  {
+    "title": "",
+    "topics": [],
+    "algorithm": [],
+    "code": "assets/code/.cpp"
   }
 ]

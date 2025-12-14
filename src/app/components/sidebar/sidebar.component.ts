@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, HostListener, EventEmitter, Output } from '@angular/core';
 import { ProblemService } from '../../problem.service';
 
 @Component({
@@ -41,5 +41,17 @@ export class SidebarComponent {
     if(this.selectedIndex >= this.problems.length - 1) return;
     this.selectedIndex++;
     this.select(this.selectedIndex);
+  }
+
+  @HostListener('window:keydown', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent) {
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();   // Stop cursor moving
+      this.prevProblem();
+    } 
+    else if (event.key === 'ArrowRight') {
+      event.preventDefault();   // Stop cursor moving
+      this.nextProblem();
+    }
   }
 }
