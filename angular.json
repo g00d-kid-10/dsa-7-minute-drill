@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dsa-drill": {
+    "dsa-7-minute-drill": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/dsa-drill",
+            "outputPath": "dist/dsa-7-minute-drill",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "dsa-drill:build:production"
+              "browserTarget": "dsa-7-minute-drill:build:production"
             },
             "development": {
-              "browserTarget": "dsa-drill:build:development"
+              "browserTarget": "dsa-7-minute-drill:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "dsa-drill:build"
+            "browserTarget": "dsa-7-minute-drill:build"
           }
         },
         "test": {
