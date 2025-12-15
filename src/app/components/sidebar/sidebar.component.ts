@@ -1,4 +1,4 @@
-import { Component, HostListener, EventEmitter, Output } from '@angular/core';
+import { Component, HostListener, EventEmitter, Output, ElementRef, ViewChildren, QueryList } from '@angular/core';
 import { ProblemService } from '../../problem.service';
 
 @Component({
@@ -8,6 +8,8 @@ import { ProblemService } from '../../problem.service';
 })
 export class SidebarComponent {
   @Output() problemSelected = new EventEmitter<any>();
+  @ViewChildren('problemItem') items!: QueryList<ElementRef>;
+
   selectedIndex : number;
   problem : any | null;
   problems: any[];
@@ -29,6 +31,14 @@ export class SidebarComponent {
     this.selectedIndex = selectedIndex;
     this.problem = this.problems[selectedIndex]
     this.problemSelected.emit(this.problem);
+
+    setTimeout(() => {
+      const el = this.items.get(selectedIndex)?.nativeElement;
+      el?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest'
+      });
+    });
   }
 
   prevProblem() {

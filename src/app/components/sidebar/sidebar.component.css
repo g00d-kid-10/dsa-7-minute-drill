@@ -76,3 +76,13 @@
   color: #d8f5d8;        /* calm soft light text */
   border-left: 4px solid #4fc3f7; /* softer blue accent */
 }
+
+.sidebar-logo {
+  width: 100%;          /* fits sidebar width */
+  max-width: 180px;     /* prevents being too large */
+  height: auto;         /* keep aspect ratio */
+  display: block;
+  margin: 8px auto 12px auto; /* center + spacing */
+  object-fit: contain;
+  opacity: 0.9;         /* subtle VS Code feel */
+}

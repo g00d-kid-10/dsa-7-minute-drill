@@ -1,3 +1,4 @@
+<img src="/assets/lessgo.png" class="sidebar-logo">
 <div class="nav-bar">
   <button class="vscode-btn" (click)="prevProblem()" tabindex="-1"><</button>
   <button class="vscode-btn" (click)="nextProblem()" tabindex="-1">></button>
@@ -6,6 +7,7 @@
 <div class="problem-list">
   <ol>
     <li *ngFor="let p of problems; let i = index" 
+        #problemItem
         (click)="select(i)"
         class="problem-item"
         [class.selected]="selectedIndex === i">
