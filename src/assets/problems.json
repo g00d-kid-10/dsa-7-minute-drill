@@ -300,9 +300,255 @@
     "code": "assets/code/valid-parenthesis.cpp"
   },
   {
-    "title": "",
-    "topics": [],
+    "title": "Climbing Stairs",
+    "topics": ["DP", "DFS"],
     "algorithm": [],
-    "code": "assets/code/.cpp"
+    "code": "assets/code/climbing-stairs.cpp"
+  },
+  {
+    "title": "Number of Islands",
+    "topics": ["Graph", "DFS", "BFS"],
+    "algorithm": [],
+    "code": "assets/code/number-of-islands.cpp"
+  },
+  {
+    "title": "House Robber",
+    "topics": ["DP", "DFS"],
+    "algorithm": ["Knapsack"],
+    "code": "assets/code/house-robber.cpp"
+  },
+  {
+    "title": "House Robber II",
+    "topics": ["DP", "DFS"],
+    "algorithm": ["Knapsack"],
+    "code": "assets/code/house-robber-II.cpp"
+  },
+  {
+    "title": "Unique Paths",
+    "topics": ["DP", "Grid"],
+    "algorithm": [],
+    "code": "assets/code/unique-paths.cpp"
+  },
+  {
+    "title": "Minimum Path Sum",
+    "topics": ["DP", "Grid"],
+    "algorithm": [],
+    "code": "assets/code/minimum-path-sum.cpp"
+  },
+  {
+    "title": "Minimum Falling Path Sum",
+    "topics": ["DP", "Grid"],
+    "algorithm": [],
+    "code": "assets/code/minimum-falling-path-sum.cpp"
+  },
+  {
+    "title": "Minimum Path Sum in Triangle",
+    "topics": ["DP", "Triangle"],
+    "algorithm": [],
+    "code": "assets/code/minimum-path-sum-triangle.cpp"
+  },
+  {
+    "title": "Equal Partition Subset Sum",
+    "topics": ["DP", "Knapsack"],
+    "algorithm": [],
+    "code": "assets/code/equal-partition-subset-sum.cpp"
+  },
+  {
+    "title": "Assign Cookies",
+    "topics": ["Greedy"],
+    "algorithm": [],
+    "code": "assets/code/assign-cookies.cpp"
+  },
+  {
+    "title": "Coin Change",
+    "topics": ["DP"],
+    "algorithm": [],
+    "code": "assets/code/coin-change.cpp"
+  },
+  {
+    "title": "Coin Change II",
+    "topics": ["DP"],
+    "algorithm": [],
+    "code": "assets/code/coin-change-II.cpp"
+  },
+  {
+    "title": "Combination Sum",
+    "topics": ["Backtracking"],
+    "algorithm": [],
+    "code": "assets/code/combination-sum.cpp"
+  },
+  {
+    "title": "Target Sum",
+    "topics": ["DP"],
+    "algorithm": [],
+    "code": "assets/code/target-sum.cpp"
+  },
+  {
+    "title": "Longest Common Subsequence",
+    "topics": ["DP", "String"],
+    "algorithm": [],
+    "code": "assets/code/longest-common-subsequence.cpp"
+  },
+  {
+    "title": "Longest Increasing Subsequence",
+    "topics": ["DP"],
+    "algorithm": [],
+    "code": "assets/code/longest-increasing-subsequence.cpp"
+  },
+  {
+    "title": "Longest Palindromic Subsequence",
+    "topics": ["DP", "String"],
+    "algorithm": [],
+    "code": "assets/code/longest-palindromic-subsequence.cpp"
+  },
+  {
+    "title": "Edit Distance",
+    "topics": ["DP", "String"],
+    "algorithm": [],
+    "code": "assets/code/edit-distance.cpp"
+  },
+  {
+    "title": "Max Profit Single Transaction",
+    "topics": ["DP"],
+    "algorithm": [],
+    "code": "assets/code/max-profit-single-transaction.cpp"
+  },
+  {
+    "title": "Max Profit Multiple Transactions",
+    "topics": ["DP"],
+    "algorithm": [],
+    "code": "assets/code/max-profit-multiple-transactions.cpp"
+  },
+  {
+    "title": "Max Profit with Cooldown",
+    "topics": ["DP"],
+    "algorithm": [],
+    "code": "assets/code/max-profit-cooldown.cpp"
+  },
+  {
+    "title": "Max Profit with Transaction Fee",
+    "topics": ["DP"],
+    "algorithm": [],
+    "code": "assets/code/max-profit-transaction-fee.cpp"
+  },
+  {
+    "title": "Number of Connected Components",
+    "topics": ["Graph"],
+    "algorithm": [],
+    "code": "assets/code/number-of-connected-components.cpp"
+  },
+  {
+    "title": "Rotten Oranges",
+    "topics": ["Graph", "BFS"],
+    "algorithm": [],
+    "code": "assets/code/rotten-oranges.cpp"
+  },
+  {
+    "title": "Flood Fill",
+    "topics": ["Graph", "DFS"],
+    "algorithm": [],
+    "code": "assets/code/flood-fill.cpp"
+  },
+  {
+    "title": "Nearest Zero in 01 Matrix",
+    "topics": ["Graph", "BFS"],
+    "algorithm": [],
+    "code": "assets/code/nearest-zero-01-matrix.cpp"
+  },
+  {
+    "title": "Capture Surrounded Regions",
+    "topics": ["Graph", "DFS"],
+    "algorithm": [],
+    "code": "assets/code/capture-surrounded-regions.cpp"
+  },
+  {
+    "title": "Number of Enclaves",
+    "topics": ["Graph", "DFS"],
+    "algorithm": [],
+    "code": "assets/code/number-of-enclaves.cpp"
+  },
+  {
+    "title": "Is Bipartite Graph",
+    "topics": ["Graph"],
+    "algorithm": [],
+    "code": "assets/code/is-bipartite.cpp"
+  },
+  {
+    "title": "Cycle in Undirected Graph",
+    "topics": ["Graph"],
+    "algorithm": [],
+    "code": "assets/code/cycle-undirected-graph.cpp"
+  },
+  {
+    "title": "Cycle in Directed Graph",
+    "topics": ["Graph"],
+    "algorithm": [],
+    "code": "assets/code/cycle-directed-graph.cpp"
+  },
+  {
+    "title": "Topological Sort (Kahn BFS)",
+    "topics": ["Graph"],
+    "algorithm": [],
+    "code": "assets/code/topo-sort-kahn.cpp"
+  },
+  {
+    "title": "Topological Sort (DFS)",
+    "topics": ["Graph"],
+    "algorithm": [],
+    "code": "assets/code/topo-sort-dfs.cpp"
+  },
+  {
+    "title": "Eventual Safe Nodes (DFS)",
+    "topics": ["Graph"],
+    "algorithm": [],
+    "code": "assets/code/eventual-safe-nodes-dfs.cpp"
+  },
+  {
+    "title": "Eventual Safe Nodes (Topo Sort)",
+    "topics": ["Graph"],
+    "algorithm": [],
+    "code": "assets/code/eventual-safe-nodes-topo.cpp"
+  },
+  {
+    "title": "Shortest Path Unweighted Graph",
+    "topics": ["Graph", "BFS"],
+    "algorithm": [],
+    "code": "assets/code/shortest-path-unweighted.cpp"
+  },
+  {
+    "title": "Shortest Path Undirected Weighted Graph",
+    "topics": ["Graph", "Dijkstra"],
+    "algorithm": [],
+    "code": "assets/code/shortest-path-undirected-weighted.cpp"
+  },
+  {
+    "title": "Shortest Path Directed Acyclic Graph",
+    "topics": ["Graph"],
+    "algorithm": [],
+    "code": "assets/code/shortest-path-dag.cpp"
+  },
+  {
+    "title": "Shortest Path in Binary Matrix",
+    "topics": ["Graph", "BFS"],
+    "algorithm": [],
+    "code": "assets/code/shortest-path-binary-matrix.cpp"
+  },
+  {
+    "title": "Minimum Effort Path",
+    "topics": ["Graph", "Dijkstra"],
+    "algorithm": [],
+    "code": "assets/code/minimum-effort-path.cpp"
+  },
+  {
+    "title": "Cheapest Flight with K Stops",
+    "topics": ["Graph"],
+    "algorithm": [],
+    "code": "assets/code/cheapest-flight-k-stops.cpp"
+  },
+  {
+    "title": "Number of Shortest Paths",
+    "topics": ["Graph"],
+    "algorithm": [],
+    "code": "assets/code/number-of-shortest-paths.cpp"
   }
 ]
