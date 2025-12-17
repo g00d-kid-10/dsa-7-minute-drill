@@ -1,14 +1,40 @@
-:host {
-  display: block;
+.container {
+  height: 100%;
+  width: 100%;
   background-color: #1e1e1e;
   color: #c5c6c7;
   padding: 16px;
-  overflow-y: auto;
-  height: 100vh;
+  box-sizing: border-box;
+  overflow: auto;
   font-size: xx-large;
 }
 
-/* Markdown link color */
+/* Prevent markdown from pushing layout */
+markdown {
+  display: block;
+  max-width: 100%;
+}
+
+/* Force horizontal scrolling for code blocks */
+markdown pre {
+  overflow-x: auto;        /* show horizontal scrollbar */
+  white-space: pre;        /* 🚫 disable wrapping */
+}
+
+/* Ensure code itself doesn't wrap */
+markdown pre code {
+  white-space: pre;        /* 🚫 disable wrapping */
+  display: block;
+}
+
+
+/* Empty state */
+.empty-state {
+  color: #7f848e;
+  font-style: italic;
+}
+
+/* Links */
 markdown a {
   color: #61dafb;
 }
@@ -18,14 +44,17 @@ hr {
   border-color: #444;
 }
 
-/* Scrollbar styling */
+/* Scrollbar (blended, subtle) */
 ::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: #555;
   border-radius: 4px;
 }
+
 ::-webkit-scrollbar-track {
   background-color: #2c2c2c;
 }

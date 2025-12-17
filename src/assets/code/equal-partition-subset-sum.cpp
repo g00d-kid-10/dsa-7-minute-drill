@@ -1,4 +1,4 @@
-bool canPartition(vector<int>& input) {
+bool can_partition(vector<int>& input) {
     vector<int> nums = input;
     int n = nums.size();
     int total = accumulate(nums.begin(), nums.end(), 0);

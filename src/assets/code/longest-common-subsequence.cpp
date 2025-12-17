@@ -1,7 +1,7 @@
 // Input: text1 = "abcde", text2 = "ace" 
 // Output: 3  
 // Explanation: The longest common subsequence is "ace" and its length is 3.
-int longestCommonSubsequence(string s1, string s2) {
+int longest_common_subsequence(string s1, string s2) {
     int m, n;
     string s1, s2;
     vector<vector<int>> cache;

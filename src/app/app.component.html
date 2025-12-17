@@ -1,6 +1,7 @@
 <div class="app-container">
-  <div class="sidebar">
+  <div class="sidebar" #sidebar>
     <app-sidebar (problemSelected)="onProblemSelected($event)"></app-sidebar>
+    <div class="resizer" (mousedown)="startResize($event)"></div>
   </div>
 
   <div class="content">

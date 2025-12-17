@@ -1,4 +1,4 @@
-vector<int> shortest_path_uwg(vector<vector<int>>& graph, int src) {
+vector<int> shortest_path_unweighted_graph(vector<vector<int>>& graph, int src) {
     int n = graph.size();
     
     vector<int> ans(n, INT_MAX);

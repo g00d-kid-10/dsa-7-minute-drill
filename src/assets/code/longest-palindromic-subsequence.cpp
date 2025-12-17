@@ -1,7 +1,7 @@
 // Input: s = "bbbab"
 // Output: 4
 // Explanation: One possible longest palindromic subsequence is "bbbb".
-int longestPalindromeSubseq(string s) {
+int longest_palindrome_subsequence(string s) {
     vector<vector<int>> cache;
 
     int n = s.size();

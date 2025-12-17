@@ -1,4 +1,4 @@
-vector<int> shortest_path_dawg(vector<vector<pair<int, int>>> graph, int src) {
+vector<int> shortest_path_directed_acyclic_weighted_graph(vector<vector<pair<int, int>>> graph, int src) {
     int n = graph.size();
     
     vector<int> visited(n);

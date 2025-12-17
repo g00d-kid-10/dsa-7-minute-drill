@@ -1,4 +1,4 @@
-int minimumTotal(vector<vector<int>>& triangle) {
+int minimum_path_sum_triangle(vector<vector<int>>& triangle) {
     int m = triangle.size();
     vector<vector<int>> cache(m, vector<int>(m, -1));
 

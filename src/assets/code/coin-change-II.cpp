@@ -7,7 +7,7 @@
 // 5=2+2+1
 // 5=2+1+1+1
 // 5=1+1+1+1+1
-int change(int amount, vector<int>& coins) {
+int coin_change_II(int amount, vector<int>& coins) {
     vector<int> nums;
     int n, target;
     vector<vector<int>> cache;

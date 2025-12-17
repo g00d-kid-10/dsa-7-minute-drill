@@ -1,4 +1,4 @@
-int minDistance(string s1, string s2) {
+int edit_distance(string s1, string s2) {
     int m = s1.size();
     int n = s2.size();
     vector<vector<int>> cache;

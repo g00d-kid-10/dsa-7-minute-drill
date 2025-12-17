@@ -1,4 +1,10 @@
-/* Top button bar */
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;        /* 🚨 important */
+  overflow: hidden;
+}
+
 .nav-bar {
   display: flex;
   padding: 12px;
@@ -8,7 +14,6 @@
   justify-content: center;
 }
 
-/* VSCode-style buttons */
 .vscode-btn {
   background-color: #2d2d2d;
   color: #4fc3f7; /* soft cyan/blue */
@@ -41,8 +46,8 @@
 .problem-list {
   padding: 12px;
   background-color: #1e1e1e;
-  color: #d4d4d4;
-  height: calc(100vh - 62px);
+  color: #cccaca;
+
   overflow-y: auto;
   font-size: small;
 }
@@ -51,7 +56,7 @@
 .problem-list ol {
   margin: 0;
   padding-left: 18px;
-}
+} 
 
 /* List items */
 .problem-item {
@@ -59,6 +64,8 @@
   margin-bottom: 4px;
   border-radius: 4px;
   cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   transition: background 0.15s, color 0.15s ease;
 }
 

@@ -1,7 +1,7 @@
 // Input: nums = [10,9,2,5,3,7,101,18]
 // Output: 4
 // Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
-int lengthOfLIS(vector<int>& nums) {
+int longest_increasing_subsequence(vector<int>& nums) {
     int n;
     unordered_map<long long, int> cache;
     n = nums.size();
@@ -23,7 +23,7 @@ int lengthOfLIS(vector<int>& nums) {
 }
 
 // Iterative Version - Most Fast
-int lengthOfLIS(vector<int>& nums) {
+int longest_increasing_subsequence(vector<int>& nums) {
     int n = nums.size();
     vector<int> dp(n, 1);
     for(int i = n - 2; i >= 0; i--) {

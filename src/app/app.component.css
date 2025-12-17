@@ -8,18 +8,32 @@
 
 /* Sidebar */
 .sidebar {
+  position: relative;
   width: 260px;
   background-color: #252526; /* VS Code sidebar bg */
-  border-right: 1px solid #3c3c3c;
+  border-right: 2px solid #3c3c3c;
+  max-width: 500px;
   padding: 12px;
-  box-sizing: border-box;
-  overflow-y: auto;
 }
 
 /* Main content area */
 .content {
   flex: 1;
   padding: 20px;
-  box-sizing: border-box;
-  overflow-y: auto;
+  min-width: 0;   /* 🔥 REQUIRED */
 }
+
+.resizer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  cursor: col-resize;
+  background: transparent;
+}
+
+.resizer:hover, .resizer:active {
+  background: #007acc;
+}
+

@@ -1,6 +1,9 @@
-<div *ngIf="problem">
-  <markdown [data]="'```cpp\n' + codeContent + '\n```'"></markdown>
-</div>
-<div *ngIf="!problem">
-  <p>Only 7 Minutes Lesssssssgoooooooooooo!!!!!</p>
+<div class="container">
+  <div *ngIf="problem">
+    <markdown [data]="'```cpp\n' + codeContent + '\n```'"></markdown>
+  </div>
+
+  <div *ngIf="!problem" class="empty-state">
+    <p>Only 7 Minutes Lesssssssgoooooooooooo!!!!!</p>
+  </div>
 </div>

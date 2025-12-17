@@ -216,12 +216,6 @@
     "code": "assets/code/majority-element.cpp"
   },
   {
-    "title": "Max profit buy sell stock",
-    "topics": ["Array"],
-    "algorithm": [],
-    "code": "assets/code/max-profit-buy-sell-stock.cpp"
-  },
-  {
     "title": "Upper Bound(Reverse)",
     "topics": ["Binary search"],
     "algorithm": [],
@@ -486,28 +480,16 @@
     "code": "assets/code/cycle-directed-graph.cpp"
   },
   {
-    "title": "Topological Sort (Kahn BFS)",
+    "title": "Topological Sort",
     "topics": ["Graph"],
     "algorithm": [],
-    "code": "assets/code/topo-sort-kahn.cpp"
+    "code": "assets/code/topo-sort.cpp"
   },
   {
-    "title": "Topological Sort (DFS)",
+    "title": "Eventual Safe Nodes",
     "topics": ["Graph"],
     "algorithm": [],
-    "code": "assets/code/topo-sort-dfs.cpp"
-  },
-  {
-    "title": "Eventual Safe Nodes (DFS)",
-    "topics": ["Graph"],
-    "algorithm": [],
-    "code": "assets/code/eventual-safe-nodes-dfs.cpp"
-  },
-  {
-    "title": "Eventual Safe Nodes (Topo Sort)",
-    "topics": ["Graph"],
-    "algorithm": [],
-    "code": "assets/code/eventual-safe-nodes-topo.cpp"
+    "code": "assets/code/eventual-safe-nodes.cpp"
   },
   {
     "title": "Shortest Path Unweighted Graph",

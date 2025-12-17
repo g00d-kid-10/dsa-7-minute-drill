@@ -1,4 +1,4 @@
-vector<int> shrotest_path_udwg(vector<vector<pair<int, int>>> graph, int src) {
+vector<int> shrotest_path_undireted_weighted_graph(vector<vector<pair<int, int>>> graph, int src) {
     // dijkstra's algo
     int n = graph.size();
     vector<int> dis(n, INT_MAX);
