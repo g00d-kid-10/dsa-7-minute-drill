@@ -79,8 +79,8 @@
 }
 
 .problem-item.selected {
-  background: #3a513a;   /* soft dark green highlight */
-  color: #d8f5d8;        /* calm soft light text */
+  background: #010701;   /* soft dark green highlight */
+  color: #5dcc5d;        /* calm soft light text */
   border-left: 4px solid #4fc3f7; /* softer blue accent */
 }
 

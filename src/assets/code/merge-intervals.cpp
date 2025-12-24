@@ -1,6 +1,8 @@
 vector<vector<int>> merge_interval(vector<vector<int>>& intervals) {
     if(intervals.size() < 2) return intervals;
     
+    sort(intervals.begin(), intervals.end());
+
     vector<vector<int>> ans;
     vector<int> prev = {intervals[0][0], intervals[0][1]};
     int n = intervals.size();
