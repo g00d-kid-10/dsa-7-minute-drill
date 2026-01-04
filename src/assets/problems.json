@@ -12,6 +12,12 @@
     "code": "assets/code/ostream.cpp"
   },
   {
+    "title": "Divisors",
+    "topics": [],
+    "algorithm": [],
+    "code": "assets/code/divisors.cpp"
+  },
+  {
     "title": "Two Sum",
     "topics": ["Array", "Hash Map"],
     "algorithm": [],
