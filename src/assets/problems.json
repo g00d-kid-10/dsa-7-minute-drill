@@ -114,6 +114,12 @@
     "code": "assets/code/treenode.cpp"
   },
   {
+    "title": "Depth of tree",
+    "topics" : ["Tree"],
+    "algorithm": [],
+    "code": "assets/code/tree-depth.cpp"
+  },
+  {
     "title": "Same Tree",
     "topics" : ["Tree"],
     "algorithm": [],
@@ -148,6 +154,12 @@
     "topics": ["Geometry"],
     "algorithm": [],
     "code": "assets/code/point-inside-rectangle.cpp"
+  },
+  {
+    "title": "Max area of square hole",
+    "topics": ["Geometry"],
+    "algorithm": [],
+    "code": "assets/code/max-area-of-square-hole.cpp"
   },
   {
     "title": "Reverse Bits",
@@ -298,6 +310,18 @@
     "topics": ["Stack"],
     "algorithm": [],
     "code": "assets/code/valid-parenthesis.cpp"
+  },
+  {
+    "title": "Maximum matrix sum",
+    "topics": ["Grid"],
+    "algorithm": [],
+    "code": "assets/code/max-matrix-sum.cpp"
+  },
+  {
+    "title": "Max length of balanced binary subarray",
+    "topics": ["Subarray", "Hash Map"],
+    "algorithm": ["Boyer's Moore"],
+    "code": "assets/code/max-len-of-balanced-binary-subarray.cpp"
   },
   {
     "title": "Climbing Stairs",
