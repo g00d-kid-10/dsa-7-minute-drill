@@ -13,6 +13,7 @@ export class SidebarComponent {
   selectedIndex : number;
   problem : any | null;
   problems: any[];
+  reversed: boolean = false;
 
   constructor(private problemService: ProblemService) {
     this.selectedIndex = -1;
@@ -31,14 +32,7 @@ export class SidebarComponent {
     this.selectedIndex = selectedIndex;
     this.problem = this.problems[selectedIndex]
     this.problemSelected.emit(this.problem);
-
-    setTimeout(() => {
-      const el = this.items.get(selectedIndex)?.nativeElement;
-      el?.scrollIntoView({
-        behavior: 'smooth',
-        block: 'nearest'
-      });
-    });
+    this.scrollToSelected();
   }
 
   prevProblem() {
@@ -51,6 +45,25 @@ export class SidebarComponent {
     if(this.selectedIndex >= this.problems.length - 1) return;
     this.selectedIndex++;
     this.select(this.selectedIndex);
+  }
+
+  toggleOrder() {
+    this.reversed = !this.reversed;
+    this.problems = this.problems.reverse();
+    this.selectedIndex = this.problems.length - 1 - this.selectedIndex;
+    this.problem = this.problems[this.selectedIndex];
+    this.problemSelected.emit(this.problem);
+    this.scrollToSelected();
+  }
+
+  scrollToSelected() {
+    setTimeout(() => {
+      const el = this.items.get(this.selectedIndex)?.nativeElement;
+      el?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+    });
   }
 
   @HostListener('window:keydown', ['$event'])
