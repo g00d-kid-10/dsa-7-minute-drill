@@ -1,7 +1,7 @@
 vector<int> shrotest_path_undireted_weighted_graph(vector<vector<pair<int, int>>> graph, int src) {
     // dijkstra's algo
     int n = graph.size();
-    vector<int> dis(n, INT_MAX);
+    vector<int> dis(n, INT_MAX), parent(n, -1);
     dis[src] = 0;
 
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
@@ -18,13 +18,12 @@ vector<int> shrotest_path_undireted_weighted_graph(vector<vector<pair<int, int>>
     }
     /*
     // To PRINT THE PATH
-        vector<int> path;
         int dest = m;
-        while(parent[dest] != dest) {
-            path.push_back(dest);
-            dest = parent[dest];
+        if(dist[dest]) reutrn path; // no path
+        vector<int> path;
+        for(int v = dest; v != -1; v = parent[node]) {
+            path.push_back(v);
         }
-        path.push_back(src);
         reverse(path.begin(), path.end());
     */
     return dis;
