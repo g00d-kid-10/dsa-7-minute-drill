@@ -150,6 +150,12 @@
     "code": "assets/code/subarray-maximum.cpp"
   },
   {
+    "title": "Min ops to reduce x to zero",
+    "topics": ["Array", "Sliding Window"],
+    "algorithm": [],
+    "code": "assets/code/min-ops-reduce-x-to-zero.cpp"
+  },
+  {
     "title": "Point inside rectangle",
     "topics": ["Geometry"],
     "algorithm": [],
@@ -330,6 +336,12 @@
     "code": "assets/code/climbing-stairs.cpp"
   },
   {
+    "title": "Jump Game I/II",
+    "topics": ["DP", "DFS", "Greedy"],
+    "algorithm": [],
+    "code": "assets/code/jump-game.cpp"
+  },
+  {
     "title": "Number of Islands",
     "topics": ["Graph", "DFS", "BFS"],
     "algorithm": [],
@@ -418,6 +430,12 @@
     "topics": ["DP"],
     "algorithm": [],
     "code": "assets/code/longest-increasing-subsequence.cpp"
+  },
+  {
+    "title": "Longest Palindromic Substring",
+    "topics": ["Two pointer", "String"],
+    "algorithm": [],
+    "code": "assets/code/longest-palindromic-substring.cpp"
   },
   {
     "title": "Longest Palindromic Subsequence",
