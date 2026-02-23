@@ -5,6 +5,8 @@
 
 // Final Intiuition: If we take jump from any cell between two leader snapshots it's same thing, we are saving computation considering that they we'll all result the same. (That is the reason for time complexity: O(n)) 
 
+// Both question can be done with recursion-DP
+
 bool canJump(vector<int>& nums) {
     int n = nums.size();
     if(n == 1) return true;
