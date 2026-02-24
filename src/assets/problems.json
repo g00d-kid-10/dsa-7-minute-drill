@@ -18,6 +18,12 @@
     "code": "assets/code/divisors.cpp"
   },
   {
+    "title": "Merge Sort",
+    "topics": ["Sorting"],
+    "algorithm": ["Merge sort"],
+    "code": "assets/code/merge-sort.cpp"
+  },
+  {
     "title": "Two Sum",
     "topics": ["Array", "Hash Map"],
     "algorithm": [],
