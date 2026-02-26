@@ -1,3 +1,6 @@
+// return index of first strictly greater element than val
+// if all the values are less then or equal to then return end of vector
+// while binary serach do idx-- and check for idx > -1 and nums[idx] == target
 int upper_bound(vector<int>& nums, int val) {
     int n = nums.size();
     int l = 0, r = n - 1, ans = n;
