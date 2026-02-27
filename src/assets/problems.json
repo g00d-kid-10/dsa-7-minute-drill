@@ -54,6 +54,12 @@
     "code": "assets/code/rotated-search.cpp"
   },
   {
+    "title": "Single Element In Sorted Array",
+    "topics" : ["Binary search"],
+    "algorithm": [],
+    "code": "assets/code/single-element-in-sorted-array.cpp"
+  },
+  {
     "title": "ListNode",
     "topics" : ["Linked List"],
     "algorithm": [],
