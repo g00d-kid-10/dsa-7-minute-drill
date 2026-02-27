@@ -54,6 +54,12 @@
     "code": "assets/code/rotated-search.cpp"
   },
   {
+    "title": "Find Peak Element",
+    "topics" : ["Binary search"],
+    "algorithm": [],
+    "code": "assets/code/find-peak-element.cpp"
+  },
+  {
     "title": "Single Element In Sorted Array",
     "topics" : ["Binary search"],
     "algorithm": [],
