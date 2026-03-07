@@ -1,3 +1,4 @@
+// PREFIX SUM METHOD
 int subarray_sum_equals_k(vector<int>& nums, int k) {
     int n = nums.size();
     vector<int> pre_sum(n + 1);
@@ -11,5 +12,24 @@ int subarray_sum_equals_k(vector<int>& nums, int k) {
         }
     }
 
+    return ans;
+}
+
+// HASMMAP METHOD => Keep track of frequencies of sum occured and on each iteration look for how many compilments(sum - k) already existed
+// because FROM all those indexes where this complement occured TO this current itteration index all((i.e. total no of frequency)) will form a subarray of sum k.
+// Current iteration sum - previously occured compliment = k 
+int subarray_sum_equals_k(vector<int>& nums, int k) {
+    int n = nums.size();
+    unordered_map<int, int> mp;
+    mp[0] = 1;
+
+    int sum = 0, ans = 0;
+    for(int i = 0; i < n; i++) {
+        sum += nums[i];
+        if(mp.count(sum - k)) {
+            ans += mp[sum - k];
+        }             
+        mp[sum]++;
+    }
     return ans;
 }
