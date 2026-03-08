@@ -1,19 +1,20 @@
 int shortest_path_unweighted_graph(vector<vector<int>>& graph, int src, int dest) {
     int n = graph.size();
-    vector<int> ans(n, INT_MAX);
+    vector<int> dist(n, -1);
     queue<int> q;
     
-    ans[src] = 0;
+    dist[src] = 0;
     q.push(src); 
     while(!q.empty()) {
-        int node = q.front(); q.pop();
-        for(int nei : graph[node]) {
-            if(ans[nei] == INT_MAX) {
-                ans[nei] = ans[node] + 1;
-                q.push(nei);
+        int u = q.front(); q.pop();
+        for(int v : graph[u]) {
+            int nd = dist[v];
+            if(nd == -1) {
+                dist[v] = dist[u] + 1;
+                q.push(v);
             }
         }
     }
 
-    return ans[dest];
+    return dist[dest];
 }
