@@ -7,19 +7,23 @@ vector<int> top_sort_dfs(int n, vector<vector<int>> edges) {
     }
 
     vector<int> ans;
-    vector<bool> visited(n);
-    function<void(int)> dfs = [&](int node) -> void {
-        if(visited[node]) return;
+    vector<int> visited(n), branch(n);
+    function<bool(int)> dfs = [&](int node) -> bool {
         visited[node] = 1;
+        branch[node] = 1;
         for(int nei : graph[node]) {
-            dfs(nei);
+            if(!visited[nei] && dfs(nei)) return true;
+            else if(branch[nei]) return true;
         }
+        branch[node] = 0;
         ans.push_back(node);
+        return false;
     };
 
     for(int node = 0; node < n; node++) {
         if(!visited[node]) {
-            dfs(node);
+            // even if one disconnected component is not DAG whole graphs is invalid for toposort by definention
+            if(dfs(node)) return {};
         }
     }
 
