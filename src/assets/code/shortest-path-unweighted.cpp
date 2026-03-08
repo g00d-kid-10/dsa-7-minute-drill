@@ -7,14 +7,14 @@ int shortest_path_unweighted_graph(vector<vector<int>>& graph, int src, int dest
     q.push(src); 
     while(!q.empty()) {
         int u = q.front(); q.pop();
+        if(u == dest) return dist[dest];
         for(int v : graph[u]) {
-            int nd = dist[v];
-            if(nd == -1) {
+            if(dist[v] == -1) {
                 dist[v] = dist[u] + 1;
                 q.push(v);
             }
         }
     }
 
-    return dist[dest];
+    return -1;
 }

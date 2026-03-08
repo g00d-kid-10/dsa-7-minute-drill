@@ -570,10 +570,10 @@
     "code": "assets/code/shortest-path-unweighted.cpp"
   },
   {
-    "title": "Shortest Path Undirected Weighted Graph",
+    "title": "Shortest Path Weighted Graph",
     "topics": ["Graph", "Dijkstra"],
     "algorithm": [],
-    "code": "assets/code/shortest-path-undirected-weighted.cpp"
+    "code": "assets/code/shortest-path-weighted.cpp"
   },
   {
     "title": "Shortest Path Directed Acyclic Graph",
