@@ -3,4 +3,7 @@ bool sameTree(TreeNode* root1, TreeNode* root2) {
     if(!root1 || !root2) return false;
     if(root1->val != root2->val) return false;
     return sameTree(root1->left, root2->left) && sameTree(root1->right, root2->right);
+    
+    // SYMMETRY FLIP THE BRANCHES
+    // return symmetrical(root1->left, root2->right) && symmetrical(root1->right, root2->left);
 }
