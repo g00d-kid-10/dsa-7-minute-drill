@@ -132,13 +132,25 @@
     "code": "assets/code/treenode.cpp"
   },
   {
+    "title": "Tree Traversals",
+    "topics" : ["Tree"],
+    "algorithm": [],
+    "code": "assets/code/tree-traversals.cpp"
+  },
+  {
     "title": "Depth of tree",
     "topics" : ["Tree"],
     "algorithm": [],
     "code": "assets/code/tree-depth.cpp"
   },
   {
-    "title": "Same Tree",
+    "title": "Tree Diameter",
+    "topics" : ["Tree"],
+    "algorithm": [],
+    "code": "assets/code/tree-diameter.cpp"
+  },
+  {
+    "title": "Same Tree | Symmetric Tree",
     "topics" : ["Tree"],
     "algorithm": [],
     "code": "assets/code/is-sametree.cpp"
