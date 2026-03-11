@@ -162,6 +162,12 @@
     "code": "assets/code/is-sub-tree.cpp"
   },
   {
+    "title": "Tree Node Path",
+    "topics" : ["Tree"],
+    "algorithm": [],
+    "code": "assets/code/tree-node-path.cpp"
+  },
+  {
     "title": "Valid BST",
     "topics" : ["Tree"],
     "algorithm": [],
