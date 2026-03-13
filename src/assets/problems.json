@@ -66,7 +66,7 @@
     "code": "assets/code/single-element-in-sorted-array.cpp"
   },
   {
-    "title": "ListNode",
+    "title": "List Node",
     "topics" : ["Linked List"],
     "algorithm": [],
     "code": "assets/code/listnode.cpp"
@@ -100,6 +100,24 @@
     "topics" : ["Linked List"],
     "algorithm": [],
     "code": "assets/code/remove-nth-from-end.cpp"
+  },
+  {
+    "title": "Doubly Linked Node",
+    "topics" : ["Linked List"],
+    "algorithm": [],
+    "code": "assets/code/doubly-linked-node.cpp"
+  },
+  {
+    "title": "Doubly linked list",
+    "topics" : ["Doubly Linked List"],
+    "algorithm": [],
+    "code": "assets/code/doubly-linked-list.cpp"
+  },
+  {
+    "title": "LRU cache",
+    "topics" : ["Doubly Linked List", "Implementation"],
+    "algorithm": [],
+    "code": "assets/code/lru-cache.cpp"
   },
   {
     "title": "Interval overlap",
