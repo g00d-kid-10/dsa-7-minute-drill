@@ -1,6 +1,8 @@
 class DSU {
 private:
     vector<int> parent, rank;
+    
+public:
     DSU(int n) : parent(n),  rank(n) {
         for(int i = 0; i < n; i++) {
             parent[i] = i;
