@@ -384,6 +384,12 @@
     "code": "assets/code/jump-game.cpp"
   },
   {
+    "title": "Disjoint Set Union(DSU)",
+    "topics": ["DSU"],
+    "algorithm": [],
+    "code": "assets/code/disjoint-set-union.cpp"
+  },
+  {
     "title": "Number of Islands",
     "topics": ["Graph", "DFS", "BFS"],
     "algorithm": [],
