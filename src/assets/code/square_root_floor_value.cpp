@@ -1,4 +1,4 @@
-int square_root(int num) {
+int square_root_floor_value(int num) {
     if(num <= 1) return num;
     int l = 0, r = num, ans = -1;
     while(l <= r) {
