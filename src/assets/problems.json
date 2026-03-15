@@ -18,16 +18,16 @@
     "code": "assets/code/divisors.cpp"
   },
   {
+    "title": "Prefix Sum",
+    "topics": ["Array", "Prefix Sum"],
+    "algorithm": [],
+    "code": "assets/code/prefix-sum.cpp"
+  },
+  {
     "title": "Merge Sort",
     "topics": ["Sorting"],
     "algorithm": ["Merge sort"],
     "code": "assets/code/merge-sort.cpp"
-  },
-  {
-    "title": "Two Sum",
-    "topics": ["Array", "Hash Map"],
-    "algorithm": [],
-    "code": "assets/code/two-sum.cpp"
   },
   {
     "title": "Upper Bound",
@@ -216,6 +216,12 @@
     "code": "assets/code/subarray-maximum.cpp"
   },
   {
+    "title": "Two Sum",
+    "topics": ["Array", "Hash Map"],
+    "algorithm": [],
+    "code": "assets/code/two-sum.cpp"
+  },
+  {
     "title": "Longest subarray of K sum",
     "topics": ["Array", "Hash Map", "Sliding Window"],
     "algorithm": [],
@@ -226,6 +232,12 @@
     "topics": ["Subarray", "Hash Map"],
     "algorithm": [""],
     "code": "assets/code/longest-subarray-of-balance.cpp"
+  },
+  {
+    "title": "Count subarray of K sum",
+    "topics": ["Array", "Hash Map", "Prefix Sum"],
+    "algorithm": [],
+    "code": "assets/code/count-subarray-of-k-sum.cpp"
   },
   {
     "title": "Point inside rectangle",
@@ -340,18 +352,6 @@
     "topics": ["Array"],
     "algorithm": [],
     "code": "assets/code/spiral-matrix.cpp"
-  },
-  {
-    "title": "Prefix Sum",
-    "topics": ["Array", "Prefix Sum"],
-    "algorithm": [],
-    "code": "assets/code/prefix-sum.cpp"
-  },
-  {
-    "title": "Subarray sum equals K",
-    "topics": ["Array", "Hash Map", "Prefix Sum"],
-    "algorithm": [],
-    "code": "assets/code/count-subarray-sum-equals-k.cpp"
   },
   {
     "title": "Pascal triangle",
