@@ -258,16 +258,10 @@
     "code": "assets/code/move-zeros-to-end.cpp"
   },
   {
-    "title": "Rotate array left by k",
+    "title": "Rotate array by K",
     "topics": ["Array"],
     "algorithm": [],
-    "code": "assets/code/rotate-array-left-by-k.cpp"
-  },
-  {
-    "title": "Rotate array (Iterative)",
-    "topics": ["Array"],
-    "algorithm": [],
-    "code": "assets/code/rotate-array-iterative.cpp"
+    "code": "assets/code/rotate-array-by-k.cpp"
   },
   {
     "title": "Missing number",

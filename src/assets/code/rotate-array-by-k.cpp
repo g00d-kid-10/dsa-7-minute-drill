@@ -1,4 +1,14 @@
-void rotate_array_iterative(vector<int>& nums, int k) {
+// RECURSIVE
+void rotate_array(vector<int>& nums, int k) {
+    int n = nums.size();
+    reverse(nums.begin(), nums.begin() + k % n);
+    reverse(nums.begin() + k % n, nums.end());
+    reverse(nums.begin(), nums.end());
+    // for right rotation reverse the 3 process
+}
+
+// ITERATIVE
+void rotate_array(vector<int>& nums, int k) {
     int n = nums.size();
     k %= n;
     vector<int> ans(n);
