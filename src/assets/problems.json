@@ -210,10 +210,10 @@
     "code": "assets/code/subarray-maximum.cpp"
   },
   {
-    "title": "Min ops to reduce x to zero",
+    "title": "Longest subarray of K sum",
     "topics": ["Array", "Sliding Window"],
     "algorithm": [],
-    "code": "assets/code/min-ops-reduce-x-to-zero.cpp"
+    "code": "assets/code/longest-subarray-of-k-sum.cpp"
   },
   {
     "title": "Point inside rectangle",
