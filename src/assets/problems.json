@@ -66,6 +66,12 @@
     "code": "assets/code/single-element-in-sorted-array.cpp"
   },
   {
+    "title": "Square Root",
+    "topics": ["Math", "Binary search"],
+    "algorithm": [],
+    "code": "assets/code/square-root.cpp"
+  },
+  {
     "title": "List Node",
     "topics" : ["Linked List"],
     "algorithm": [],
@@ -220,12 +226,6 @@
     "topics": ["Geometry"],
     "algorithm": [],
     "code": "assets/code/point-inside-rectangle.cpp"
-  },
-  {
-    "title": "Square Root",
-    "topics": ["Math", "Binary search"],
-    "algorithm": [],
-    "code": "assets/code/square-root.cpp"
   },
   {
     "title": "Reverse Bits",
