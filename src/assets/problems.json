@@ -390,6 +390,12 @@
     "code": "assets/code/climbing-stairs.cpp"
   },
   {
+    "title": "Assign Cookies",
+    "topics": ["Greedy"],
+    "algorithm": [],
+    "code": "assets/code/assign-cookies.cpp"
+  },
+  {
     "title": "Jump Game I/II",
     "topics": ["DP", "DFS", "Greedy"],
     "algorithm": [],
@@ -448,12 +454,6 @@
     "topics": ["DP", "Knapsack"],
     "algorithm": [],
     "code": "assets/code/equal-partition-subset-sum.cpp"
-  },
-  {
-    "title": "Assign Cookies",
-    "topics": ["Greedy"],
-    "algorithm": [],
-    "code": "assets/code/assign-cookies.cpp"
   },
   {
     "title": "Coin Change",

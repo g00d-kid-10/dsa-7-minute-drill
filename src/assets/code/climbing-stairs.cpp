@@ -1,3 +1,4 @@
+// RECURSIVE
 int climb_stairs(int n) {
     vector<int> cache(n, -1);
     function<int(int)> dfs = [&](int i) {
@@ -17,3 +18,5 @@ int climb_stairs(int n) {
     
     return dfs(0);
 }
+
+// DP
