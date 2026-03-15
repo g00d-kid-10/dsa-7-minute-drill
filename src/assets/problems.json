@@ -337,15 +337,15 @@
   },
   {
     "title": "Prefix Sum",
-    "topics": ["Array"],
+    "topics": ["Array", "Prefix Sum"],
     "algorithm": [],
     "code": "assets/code/prefix-sum.cpp"
   },
   {
     "title": "Subarray sum equals K",
-    "topics": ["Array"],
+    "topics": ["Array", "Hash Map", "Prefix Sum"],
     "algorithm": [],
-    "code": "assets/code/subarray-sum-equals-k.cpp"
+    "code": "assets/code/count-subarray-sum-equals-k.cpp"
   },
   {
     "title": "Pascal triangle",
