@@ -15,3 +15,6 @@ int longest_consecutive(vector<int>& nums) {
 
     return ans;
 }
+
+// Applications:
+// https://leetcode.com/problems/maximize-area-of-square-hole-in-grid // Brute Force: Sorting O(nlogn) // Above: O(n)

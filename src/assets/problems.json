@@ -222,12 +222,6 @@
     "code": "assets/code/point-inside-rectangle.cpp"
   },
   {
-    "title": "Max area of square hole",
-    "topics": ["Geometry"],
-    "algorithm": [],
-    "code": "assets/code/max-area-of-square-hole.cpp"
-  },
-  {
     "title": "Square Root",
     "topics": ["Math", "Binary search"],
     "algorithm": [],

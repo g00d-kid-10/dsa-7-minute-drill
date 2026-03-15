@@ -13,3 +13,6 @@ int longest_subarray_of_k_sum(vector<int>& nums, int k) {
     }
     return ans;
 }
+
+// Applications:
+// https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
