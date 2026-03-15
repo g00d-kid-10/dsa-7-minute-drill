@@ -217,9 +217,15 @@
   },
   {
     "title": "Longest subarray of K sum",
-    "topics": ["Array", "Sliding Window"],
+    "topics": ["Array", "Hash Map", "Sliding Window"],
     "algorithm": [],
     "code": "assets/code/longest-subarray-of-k-sum.cpp"
+  },
+  {
+    "title": "Longest subarray of balanced",
+    "topics": ["Subarray", "Hash Map"],
+    "algorithm": [""],
+    "code": "assets/code/longest-subarray-of-balance.cpp"
   },
   {
     "title": "Point inside rectangle",
@@ -376,12 +382,6 @@
     "topics": ["Grid"],
     "algorithm": [],
     "code": "assets/code/max-matrix-sum.cpp"
-  },
-  {
-    "title": "Max length of balanced binary subarray",
-    "topics": ["Subarray", "Hash Map"],
-    "algorithm": ["Boyer's Moore"],
-    "code": "assets/code/max-len-of-balanced-binary-subarray.cpp"
   },
   {
     "title": "Climbing Stairs",
