@@ -9,7 +9,7 @@ public:
         tail->prev = head;
     }
 
-    void insertFront(Node* node) {
+    void insert_front(Node* node) {
         node->next = head->next;
         node->prev = head;
 
@@ -22,9 +22,8 @@ public:
         node->next->prev = node->prev;
     }
 
-    Node* removeLast() {
-        Node* node = tail->prev;
-        remove(node);
-        return node;
+    Node* get_last() {
+        if(tail->prev == head) return nullptr;
+        return tail->prev;
     }
 };

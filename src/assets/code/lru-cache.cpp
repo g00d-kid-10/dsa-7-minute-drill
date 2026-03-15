@@ -25,9 +25,10 @@ public:
             list.insertFront(node);
         } else {
             if(mp.size() == capacity) {
-                Node* last = list.removeLast();
-                mp.erase(last->key);
-                delete last;
+                Node* node = list.get_last();
+                mp.erase(node->key);
+                list.remove(node);
+                delete node;
             }
 
             Node* node = new Node(k, v);
