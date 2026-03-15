@@ -186,6 +186,12 @@
     "code": "assets/code/tree-node-path.cpp"
   },
   {
+    "title": "Tree To Graph",
+    "topics" : ["Tree"],
+    "algorithm": [],
+    "code": "assets/code/tree-to-graph.cpp"
+  },
+  {
     "title": "Valid BST",
     "topics" : ["Tree"],
     "algorithm": [],
