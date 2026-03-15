@@ -1,4 +1,4 @@
-bool tree_node_path(TreeNode* root, TreeNode* target, vector<TreeNode*>& ans) {
+bool path(TreeNode* root, TreeNode* target, vector<TreeNode*>& ans) {
     if(!root) return false;
     ans.push_back(root);
     if(root == target) {
