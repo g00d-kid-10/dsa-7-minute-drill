@@ -450,7 +450,7 @@
     "code": "assets/code/minimum-path-sum-triangle.cpp"
   },
   {
-    "title": "Combination Sum",
+    "title": "Combination Sum I/II",
     "topics": ["DP", "Knapsack", "Backtracking"],
     "algorithm": [],
     "code": "assets/code/combination-sum.cpp"

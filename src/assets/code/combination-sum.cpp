@@ -1,3 +1,5 @@
+// Unbounded - Infinite choices for the same element
+// Bounded - One time use
 vector<vector<int>> combination_sum(vector<int>& nums, int target) {
     int n = nums.size();
     vector<vector<int>> ans;
@@ -12,7 +14,8 @@ vector<vector<int>> combination_sum(vector<int>& nums, int target) {
 
         sum += nums[i];
         temp.push_back(nums[i]);
-        dfs(i + 1, sum, temp);
+        dfs(i, sum, temp); // Unbounded knapsack
+        // dfs(i + 1, sum, temp); // Bounded knapsack
         temp.pop_back();
         sum -= nums[i];
 
