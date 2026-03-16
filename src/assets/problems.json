@@ -450,6 +450,12 @@
     "code": "assets/code/minimum-path-sum-triangle.cpp"
   },
   {
+    "title": "Combination Sum",
+    "topics": ["DP", "Knapsack", "Backtracking"],
+    "algorithm": [],
+    "code": "assets/code/combination-sum.cpp"
+  },
+  {
     "title": "Equal Partition Subset Sum",
     "topics": ["DP", "Knapsack"],
     "algorithm": [],
@@ -466,12 +472,6 @@
     "topics": ["DP"],
     "algorithm": [],
     "code": "assets/code/coin-change-II.cpp"
-  },
-  {
-    "title": "Combination Sum",
-    "topics": ["Backtracking"],
-    "algorithm": [],
-    "code": "assets/code/combination-sum.cpp"
   },
   {
     "title": "Target Sum",
